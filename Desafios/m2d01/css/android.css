@@ -65,7 +65,7 @@ aside > p {
     font-weight: lighter;
     font-size: small;
 
-    min-width: 480px;
+    min-width: 1080px;
     max-width: 1366px;
     margin: 8px 0px 8px 12px;
 }
@@ -172,7 +172,7 @@ nav {
 main {
     background-color: white;
 
-    margin: 15px;
+    margin: auto;
     padding: 20px;
 
     border-radius: 5px;
