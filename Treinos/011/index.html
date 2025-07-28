@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Pseudo-Elementos</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif
+            }
+
+            a {
+                color: #ff0000;
+                text-decoration: none;
+            }
+
+            a:visited {
+                color: #800000;
+            }
+
+            a:hover {
+                text-decoration: underline;
+                font-weight: bold;
+                color: #000058;
+            }
+
+            a:active {
+                color: #006900;
+            }
+
+            a::after {
+                content: '[link]';
+                text-decoration: none;
+                font-weight: normal;
+                color: #cecece;
+            }
+            
+            .special {
+                background-color: #ffff00;
+                font-family: cursive;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Personalizando Links</h1>
+        <ul>
+            <li><a href="https://www.instagram.com/nmarine6/" target="_blank">Instagram</a></li>
+            <li class="special"><a href="https://www.youtube.com/@naemarine" target="_blank">YouTube</a></li>
+            <li><a href="https://cara.app/nmarine6" target="_blank">Cara</a></li>
+        </ul>
+    </body>
+</html>

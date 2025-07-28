@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    background-color: #ffb1b1;
+}
+
+h1 {
+    text-align: center;
+    color: #ff0000;
+}
+
+h1#main {
+    font: italic bold 3em cursive;
+}
+
+.music {
+    font: bold 2em 'Arial';
+}
+
+h2 {
+    color: #960000;
+}
+
+h3 {
+    color: #b93131
+}
+
+p {
+    text-align: justify;
+    text-indent: 1em;
+}

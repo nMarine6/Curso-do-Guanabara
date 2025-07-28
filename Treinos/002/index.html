@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="images/Rockettheme-Free-Web-Mail.ico" type="image/x-icon">
+        <title>Testes com Imagens</title>
+    </head>
+    <body>
+        <h1>Imagens Estáticas</h1>
+        <img src="images/Google-search-e1683662685426.jpg" alt="Google">
+        <h1>Imagens Estáticas Externas</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/640px-Wikipedia-logo-v2.svg.png" alt="Logo da Wikipedia">
+        <h1>Imagens Dinâmicas</h1>
+        <picture>
+            <source media="(max-width: 650px)" srcset="images/fotoP.png" type="image/png">
+            <source media="(max-width: 1000px)" srcset="images/fotoM.png" type="image/png">
+            <img src="images/fotoG.png" alt="Exemplo de Foto Grande">
+        </picture>
+        <picture>
+            <source media="(max-width: 428px)" srcset="images/CelesteP.jpg" type="image/jpg">
+            <source media="(max-width: 616px)" srcset="images/CelesteM.jpg" type="image/jpg">
+            <img src="images/CelesteFull.jpg" alt="Celeste Cover Art">
+        </picture>
+    </body>
+</html>
