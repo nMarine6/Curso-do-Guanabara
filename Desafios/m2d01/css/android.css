@@ -175,6 +175,9 @@ main {
     margin: auto;
     padding: 20px;
 
+    min-width: 1080px;
+    max-width: 1366px;
+
     border-radius: 5px;
     box-shadow: #000000ad 3px 5px 10px;
 }
