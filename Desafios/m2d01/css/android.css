@@ -54,7 +54,7 @@ main > p {
     text-indent: 1em;
     line-height: 1.8em;
 
-    min-width: 300px;
+    min-width: 480px;
     max-width: 1366px;
     margin: 8px 0px 8px 12px;
 }
@@ -65,7 +65,7 @@ aside > p {
     font-weight: lighter;
     font-size: small;
 
-    min-width: 300px;
+    min-width: 480px;
     max-width: 1366px;
     margin: 8px 0px 8px 12px;
 }
@@ -75,7 +75,7 @@ main > img {
 }
 
 main > img.small {
-    max-width: 300px;
+    max-width: 480px;
 }
 
 div {
@@ -140,7 +140,7 @@ li {
     font-weight: lighter;
     font-size: small;
 
-    min-width: 300px;
+    min-width: 480px;
     max-width: 1366px;
     margin: 8px 0px 8px 12px;
 }
@@ -175,7 +175,7 @@ main {
     margin: auto;
     padding: 20px;
 
-    min-width: 300px;
+    min-width: 480px;
     max-width: 1366px;
 
     border-radius: 5px;
