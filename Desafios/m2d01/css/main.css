@@ -36,8 +36,16 @@ h1 {
     font-family: 'IDroid', Arial, Helvetica, sans-serif;
 }
 
+h1#tudo {
+    text-align: center;
+}
+
 h2 {
     font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+}
+
+h2#subtudo {
+    text-align: center;
 }
 
 h3 {
@@ -142,6 +150,7 @@ li {
 
     min-width: 480px;
     max-width: 1366px;
+    margin: 8px 0px 8px 12px;
 }
 
 abbr {
