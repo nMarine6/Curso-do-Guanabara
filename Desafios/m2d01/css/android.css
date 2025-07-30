@@ -160,6 +160,8 @@ header {
     text-align: center;
     padding: 25px;
 
+    min-width: 480px;
+    max-width: 1366px;
     min-height: 50px;
 }
 
@@ -195,6 +197,9 @@ footer {
     background-color: var(--cor4);
 
     text-align: center;
+
+    min-width: 480px;
+    max-width: 1366px;
 
     padding: 25px;
 }
