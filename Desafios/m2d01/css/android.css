@@ -65,7 +65,7 @@ aside > p {
     font-weight: lighter;
     font-size: small;
 
-    min-width: 480px;
+    min-width: 300px;
     max-width: 1366px;
     margin: 8px 0px 8px 12px;
 }
