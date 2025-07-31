@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* FONTS */
+
+@font-face {
+    font-family: 'Passion One';
+    src: url(../fonts/PassionOne-Regular.ttf), format(truetype);
+}
+/* TAGS */
+
+h1 {
+    padding-top: 50px;
+
+    font-family: 'Passion One', sans-serif;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+section > p {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 2vw;
+
+    width: 400px;
+    padding-top: 1em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* BOXES */
+body {
+    background-color: lightgray;
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+
+    height: 250px;
+
+    text-align: center;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 80px;
+
+    line-height: 2.5em;
+    
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem {
+    background-color: #1f1f1f85;
+    background-attachment: fixed;
+    color: white;
+    
+    box-shadow: inset 6px 6px 12px #000000af;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#i01 {
+    background-image: url(../images/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#i02 {
+    background-image: url(../images/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+footer {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+    padding: 20px;
+}
